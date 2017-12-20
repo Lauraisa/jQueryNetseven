@@ -2,8 +2,18 @@
   box-sizing: border-box;
 }
 .bg-mobil{
-  background-image: url('../assets/img/sunny-day.jpg');
+  background-image: url('../assets/img/nav.jpg');
 }
+
+.view-mobile {
+  width: 100%;
+  height:40vh; 
+}
+
+#Gato-1 {
+  width: 200px;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -473,14 +483,16 @@ img{
   .bg-mobil{
     background-image: url('../assets/img/dawn.png');  
   
+  }
 }
-
-/*---clases*/
+/*---clases para primer gato*/
 .medium-kat {
-  width: 300%;
+  width: 150px;
 }
 
-.margin {
-  margin: 0;
+.nieve{
+  background-image: url('../assets/img/nieve.gif'); 
 }
+
+
 
