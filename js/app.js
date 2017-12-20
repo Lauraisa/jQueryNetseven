@@ -6,10 +6,27 @@ $(document).ready(function(){
         $('#Gato-1').parent().addClass('margin');
         
     });
-    $("#gato-2").click(function(evento){
-        $("body").removeClass("bg-body");
-        $("body").addClass("back-red");
-        
+    /*trabajando bg y animacion de cat */
+    $("body").click(function(evento){
+        $("body").toggleClass("back-red");
+        // El gatito desaparece
+
     });
+    $( ".box-cat" ).click(function() {
+        $( "#gato-2" ).fadeOut( "slow", function() {
+          // El gatito desaparece
+        });
+        $( "#gato-2" ).show( "slow", function() {
+        });
+        // El gatito aparece
+
+        /* $( "#gatgif" ).show( "slow", function() {
+        });
+        // El gatito aparece
+
+      }); para modificar*/
+    
+      });
+    
 
  });

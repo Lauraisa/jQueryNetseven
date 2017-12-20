@@ -449,15 +449,14 @@ img{
   }
   .bg-body{
     background-image: url('../assets/img/night.jpg');  
-
-
   }
 
   /* 2 clase */
-.back-red{
+  .back-red{
   background-image: url('../assets/img/fondo2.jpg');  
-}
-}
+  }
+  
+
 
 @media (min-width: 992px) {
   .view-mobile {
