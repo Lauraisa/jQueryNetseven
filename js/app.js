@@ -18,13 +18,22 @@ $(document).ready(function(){
     });
     $( ".box-cat" ).click(function() {
         $( "#gato-2" ).slideToggle( "slow", function() {
-          
+
         });
+
         $( "#gato-2" ).show( "slow", function() {
         });
-        
-    
+
+
       });
-    
+
+      $( ".bg-mobil" ).click(function(evento) {
+          $( ".bg-mobil" ).toggleClass( "gato-3")
+            $( "#gato-3").toggleClass("transition")
+
+          });
+
+        
+
 
  });
