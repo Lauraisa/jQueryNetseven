@@ -1,6 +1,6 @@
-$(document).ready(function(){
+$(document).ready(function () {
     //código a ejecutar cuando el DOM está listo para recibir instrucciones.
-    $("#Gato-1").click(function(evento){
+    $("#Gato-1").click(function (evento) {
         $('#Gato-1').toggleClass("medium-kat");
         $('#Gato-1').parent().addClass('margin');
         $('#Gato-1').parent().toggleClass("nieve");
@@ -11,29 +11,32 @@ $(document).ready(function(){
     //     $( "div:hidden:first" ).fadeIn( "slow" );
     //   });
     /*trabajando bg y animacion de cat */
-    $(".bg-mobil").click(function(evento){
+    $(".bg-mobil").click(function (evento) {
         $(".bg-mobil").toggleClass("back-red");
         // El gatito desaparece
 
     });
-    $( ".box-cat" ).click(function() {
-        $( "#gato-2" ).slideToggle( "slow", function() {
-
-        });
-
-        $( "#gato-2" ).show( "slow", function() {
-        });
-
-
-      });
-
-      $( ".bg-mobil" ).click(function(evento) {
-          $( ".bg-mobil" ).toggleClass( "gato-3")
-            $( "#gato-3").toggleClass("transition")
-
-          });
-
+    $(".box-cat").click(function () {
+        $("#gato-2").slideToggle("slow", function () {
+            $(function () {
+                setTimeout(function () {
+                    $('.fly-in-text').toggleClass('hidden');
+                }, 500);
         
+            });
+        });
+
+        $("#gato-2").show("slow", function () {});
+
+    });
+
+    $(".bg-mobil").click(function (evento) {
+        $(".bg-mobil").toggleClass("gato-3")
+        $("#gato-3").toggleClass("transition")
+
+    });
+
+ 
 
 
- });
+});
