@@ -1,14 +1,14 @@
 $(document).ready(function(){
     //código a ejecutar cuando el DOM está listo para recibir instrucciones.
     $("#Gato-1").click(function(evento){
-        $(this).addClass("medium-kat")
+        $('#Gato-1').addClass("medium-kat")
         $('#Gato-1').parent().removeClass('col-xs-offset-3');
         $('#Gato-1').parent().addClass('margin');
         
     });
     /*trabajando bg y animacion de cat */
-    $("body").click(function(evento){
-        $("body").toggleClass("back-red");
+    $(".bg-mobil").click(function(evento){
+        $(".bg-mobil").toggleClass("back-red");
         // El gatito desaparece
 
     });

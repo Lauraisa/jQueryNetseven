@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
 }
-.body{
+.bg-mobil{
   background-image: url('../assets/img/sunny-day.jpg');
 }
 .container {
@@ -436,7 +436,7 @@ img{
   height: 100%;
 }
 
-@media (min-width:768px)and (max-width:991px) {
+@media (min-width:768px) {
   .view-mobile {
     display: none;
   }
@@ -447,15 +447,15 @@ img{
   .view-desktop {
     display: none;
   }
-  .bg-body{
+  .bg-mobil{
     background-image: url('../assets/img/night.jpg');  
   }
 
   /* 2 clase */
   .back-red{
   background-image: url('../assets/img/fondo2.jpg');  
-  }
-  
+  } 
+}
 
 
 @media (min-width: 992px) {
@@ -469,18 +469,18 @@ img{
   .view-desktop {
     display: block;
   }
-  body{
-    background-image: url('../assets/img/dawn.png'); 
-  }
+
+  .bg-mobil{
+    background-image: url('../assets/img/dawn.png');  
+  
 }
 
 /*---clases*/
 .medium-kat {
-  width: 200%;
+  width: 300%;
 }
 
 .margin {
   margin: 0;
 }
-
 
