@@ -11,8 +11,8 @@ $(document).ready(function () {
     //     $( "div:hidden:first" ).fadeIn( "slow" );
     //   });
     /*trabajando bg y animacion de cat */
-    $(".bg-mobil").click(function (evento) {
-        $(".bg-mobil").toggleClass("back-red");
+    $(".bg-body").click(function (evento) {
+        $(".bg-body").toggleClass("back-red");
         // El gatito desaparece
 
     });
@@ -30,12 +30,16 @@ $(document).ready(function () {
 
     });
 
-    $(".bg-mobil").click(function (evento) {
-        $(".bg-mobil").toggleClass("gato-3")
+    $(".bg-body").click(function (evento) {
+        $(".bg-body").toggleClass("gato-3")
         $("#gato-3").toggleClass("transition")
 
     });
 
+ /*creando elemento extra*/
+ $('<div></div>')
+ .prependTo(".container")
+ .addClass("view-LargeDevicesDes");
  
 
 
