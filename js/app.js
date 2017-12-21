@@ -22,7 +22,7 @@ $(document).ready(function () {
                 setTimeout(function () {
                     $('.fly-in-text').toggleClass('hidden');
                 }, 500);
-        
+
             });
         });
 
@@ -40,7 +40,27 @@ $(document).ready(function () {
  $('<div></div>')
  .prependTo(".container")
  .addClass("view-LargeDevicesDes");
- 
 
 
+
+});
+
+ /*cambio de colores */
+$(document).ready(function() {
+    function changeColor(){
+        if ($('body').hasClass('.bg-body')) {
+            $('body').removeClass('.bg-body');
+            $('body').addClass('.back-red');
+            $('h1').removeClass('green');
+            $('h1').addClass('red');
+        }
+        else {
+            $('body').removeClass('.back-red');
+            $('body').addClass('.bg-body');
+            $('h1').removeClass('red');
+            $('h1').addClass('green');
+        }
+    }
+
+    setInterval(changeColor, 1000);
 });

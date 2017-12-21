@@ -419,6 +419,8 @@
     }
   }
 
+
+
 /*vistas*/
 .view-mobile {
   display: block;
@@ -494,7 +496,32 @@ img{
 
   }
 }
+
+
+  h1{
+  text-align: center;
+  font-size: 500%;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(50deg);
+  transform: rotate(10deg);
+
+}
+.green {
+    background-color:green;
+    color:#000000;
+      text-shadow: 20px 20px white;
+}
+
+.red {
+    background-color:red;
+    color:#FFFFFF;
+      text-shadow: 20px 20px black;
+}
+
+
 @media (min-width: 1200px) {
+
+
   .view-mobile {
     display: none;
   }
@@ -514,6 +541,7 @@ img{
     background-image: url('../assets/img/cat_curioso.jpg');
 
   }
+
 }
 /*---clases para primer gato*/
 .medium-kat {
@@ -560,4 +588,3 @@ img{
 .fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
 .fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
 .fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }
-
